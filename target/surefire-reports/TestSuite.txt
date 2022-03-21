@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.242 s <<< FAILURE! - in TestSuite
+secondtest(intellisense.QA.IntellisenseTest)  Time elapsed: 2.641 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='The value already exists for the timestamp']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-PFIONNJC', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}), userDataDir=C:\Users\RISHAV~1\AppData\Local\Temp\scoped_dir24360_1768999088}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57776}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=99.0.4844.74, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 317cc700f6b9344686eeacabf7c24055
+*** Element info: {Using=xpath, value=//*[text()='The value already exists for the timestamp']}
+	at intellisense.QA.IntellisenseTest.secondtest(IntellisenseTest.java:59)
+

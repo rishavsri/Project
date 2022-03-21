@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T00:37:28 GMT" name="Default suite" finished-at="2022-03-20T00:37:56 GMT" duration-ms="27795">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T00:37:28 GMT" name="Default test" finished-at="2022-03-20T00:37:56 GMT" duration-ms="27795">
+      <class name="intellisense.QA.IntellisenseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:28 GMT" name="setup" finished-at="2022-03-20T00:37:41 GMT" duration-ms="12861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="firsttest()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:41 GMT" name="firsttest" description="Failed scenario" finished-at="2022-03-20T00:37:50 GMT" duration-ms="8831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+        <test-method signature="fourthtest()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:50 GMT" name="fourthtest" finished-at="2022-03-20T00:37:50 GMT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthtest -->
+        <test-method signature="secondtest()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:50 GMT" name="secondtest" finished-at="2022-03-20T00:37:50 GMT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+        <test-method signature="thirdtest()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:50 GMT" name="thirdtest" finished-at="2022-03-20T00:37:50 GMT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdtest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:intellisense.QA.IntellisenseTest@160396db]" started-at="2022-03-20T00:37:50 GMT" name="teardown" finished-at="2022-03-20T00:37:56 GMT" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- intellisense.QA.IntellisenseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
